@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+main{
+    margin-top: 100px;
+}
+
+:root {
+    --color: #00a9fd;
+}
+
+/* navigation */
+
+
+.container{
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    background-color:#faf5f5;
+}
+
+.header{
+    font-weight: 700px;
+    border-left: 5px solid var(--color);
+    padding: 0 0 0 10px;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 10px;
+    position: relative;
+    margin-top: 10px;
+}
+
+
+.background-gray{
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ebebeb!important;
+}
+
+
+.mb-0{
+    margin-bottom: 0!important;
+}
+
+.collum{
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.size-flex{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.list-style{
+    list-style: none;
+}
+
+.text{
+    font-size: 14px;
+}
+ 
+.address-company{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    font-size: 15px;
+}
+
+.margin-bot-1{
+    display: block;
+    margin-bottom: 5px;
+   
+}
+table td:first-child {
+    width: 15% !important;
+}
+
+.my-table{
+    border-collapse: collapse;
+    border-left: none;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #e1e1e1;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+td{
+    border-top: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+    padding: 10px;
+}
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.flex-company{
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* .flex{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+} */
+
+.border-margin{
+    border: 1px solid #e1e1e1;
+    margin-top: 10px;
+}
+
+
+.box-padding{
+    padding: 12px;
+}
+
+.text-centre{
+    text-align: center;
+}
+
+div {
+    display: block;
+}
+
+img{
+    width: 280px;
+}
+
+.name-company{
+    padding: 10px;
+    font-size: 19px;
+    font-weight: 700;
+    color: #363636;
+    text-align: center;
+}
+
+.text-border-R{
+    font-size: 12px;
+}
+
+body{
+    background-image: url(image/pexels-andrea-piacquadio-927022.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}

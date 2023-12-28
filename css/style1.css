@@ -1,0 +1,241 @@
+:root {
+    --color: #00a9fd;
+    --color_1: #bcc0c4;
+}
+
+main {
+    margin-top: 120px;
+}
+
+
+
+/* search */
+
+
+.search.index1 {
+    width: 30%;
+}
+
+.main-img {
+    width: 70%;
+}
+
+.main-img img {
+    width: 100%;
+}
+
+
+
+
+/* slider  */
+.slider.index1 {
+
+    display: block;
+    border-radius: 5px;
+}
+
+.slider.index1 .slide-controls button {
+    color: white !important;
+}
+
+
+/* việc làm mới  */
+.addLike {
+    background-color: red;
+}
+
+.new-job ul {
+    flex-wrap: wrap;
+}
+
+.new-job ul li {
+    padding: 10px;
+    width: 33%;
+}
+
+.new-job ul div {
+    height: 120px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px var(--color_1);
+    position: relative;
+}
+
+.new-job ul li>div:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+.new-job .text {
+    font-weight: bold;
+
+}
+
+.new-job .text:hover {
+    color: var(--color);
+}
+
+
+
+
+
+
+.new-job ul li .like,
+.new-job .new {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    padding: 0 !important;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.new-job .new {
+    font-size: 10px;
+    top: 5px;
+    right: 20px;
+    animation: color-new 2s infinite;
+    padding: 0 !important;
+    cursor: context-menu;
+}
+
+.new-job ul li .like:hover {
+    background-color: var(--color);
+}
+
+.new-job ul li .like:hover i {
+    transform: scale(1.2);
+}
+
+@keyframes color-new {
+    0% {
+        background-color: white;
+    }
+
+    50% {
+        background-color: var(--color);
+    }
+
+    100% {
+        background-color: white;
+    }
+}
+
+/* khám phá   */
+
+.discover ul {
+    flex-wrap: wrap;
+}
+
+.discover ul li {
+    width: 25%;
+    padding: 10px;
+}
+
+.discover ul li>div {
+    border: 1px solid var(--color);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.discover ul li>div:hover {
+    color: white;
+    background-color: var(--color);
+    transition: all .3s ease-in-out;
+}
+
+.discover .discover-icon {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.discover .discover-icon i {
+    font-size: 20px;
+    color: var(--color);
+}
+
+
+.discover ul li>div i {
+    font-size: 25px;
+}
+
+.discover .discover-btn {
+    margin-left: 30%;
+}
+
+.discover .discover-btn a {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.discover .discover-btn a {
+    color: white;
+}
+
+
+.discover .discover-btn i {
+    font-size: 15px;
+}
+
+@media (max-width: 758px) {
+
+    /* Head */
+    section.head {
+        flex-direction: column;
+    }
+
+    .search.index1{
+        margin-bottom: 50px;
+    }
+
+    section.head .search.index1,
+    .main-img {
+        width: 100%;
+    }
+
+    .slider.index1 i{
+        font-size: 25px;
+    }
+
+    /* Work */
+
+    .new-job ul {
+        display: block;
+    }
+
+    .new-job ul li{
+        width: 100%;
+    }
+
+    .discover ul li{
+        width: 50%;
+        
+    }
+    .discover-btn{
+        display: none;
+    }
+
+    .discover ul li>div{
+        min-height: 190px;
+    }
+
+
+
+
+
+
+
+}
